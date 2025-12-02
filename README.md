@@ -2,14 +2,12 @@
 
 <div align="center">
 
+[![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-20BEFF?logo=kaggle)](https://www.kaggle.com/)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DUnWNxLMxL3WprUqhyLayPxVr5KffTsC?usp=sharing)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Keras](https://img.shields.io/badge/Keras-3.0-red.svg)](https://keras.io/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **A comprehensive guide to fine-tuning Google's Gemma 3 models using LoRA (Low-Rank Adaptation) - works on both CPU and GPU!**
-
-![Demo](LLMGen.gif)
 
 </div>
 
@@ -33,7 +31,7 @@ This tutorial demonstrates how to fine-tune **Gemma 3 270M** (or higher) on a cu
 
 <div align="center">
 
-![Architecture](Arch.png)
+![LoRA Architecture](lora-architecture.png)
 
 </div>
 
@@ -41,34 +39,15 @@ The LoRA approach freezes the pre-trained model weights and injects trainable lo
 
 ---
 
-## 📊 Results
-
-### Before vs After Fine-Tuning
-
-<div align="center">
-
-![Comparison](before_after_comparison.png)
-
-</div>
-
-### CPU Training Performance
-
-<div align="center">
-
-| | |
-|:---:|:---:|
-| ![CPU Stats](cpu.png) | ![CPU Training](cpu%20super%20sin.png) |
-
-</div>
-
----
-
 ## 🚀 Quick Start
 
-### Option 1: Google Colab (Recommended)
+### Option 1: Kaggle (Recommended)
+Run the notebook directly on Kaggle with free GPU/TPU access!
+
+### Option 2: Google Colab
 Click the "Open in Colab" badge above to run the notebook with free GPU access!
 
-### Option 2: Local Installation
+### Option 3: Local Installation
 
 ```bash
 # Clone the repository
@@ -111,10 +90,7 @@ pip install keras-hub[jax] jax[cuda12]
 Fine-Tuning-Gemma-3/
 ├── Fine_Tuning_Gemma3_LoRA.ipynb  # Main tutorial notebook
 ├── data.csv                        # Sample training data
-├── Arch.png                        # Architecture diagram
-├── LLMGen.gif                      # Demo animation
-├── before_after_comparison.png     # Results comparison
-├── cpu.png                         # CPU training stats
+├── lora-architecture.png           # Architecture diagram
 └── README.md                       # This file
 ```
 
@@ -129,17 +105,11 @@ Contributions are welcome! Feel free to:
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 🙏 Acknowledgments
 
 - [Google DeepMind](https://deepmind.google/) for the Gemma models
 - [Keras Team](https://keras.io/) for KerasHub
-- [Hugging Face](https://huggingface.co/) for model hosting
+- [Kaggle](https://www.kaggle.com/) for notebook hosting and free compute
 
 ---
 
