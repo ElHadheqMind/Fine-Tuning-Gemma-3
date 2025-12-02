@@ -3,11 +3,14 @@
 <div align="center">
 
 [![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-20BEFF?logo=kaggle)](https://www.kaggle.com/)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DUnWNxLMxL3WprUqhyLayPxVr5KffTsC?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1N63GVduHTblHk4av87-pupsQZLTq32o6/view?usp=sharing)
+[![Medium](https://img.shields.io/badge/Medium-Article-12100E?logo=medium)](https://medium.com/@mezzihoussem/fine-tuning-gemma-3-270m-or-higher-on-cpu-gpu-with-lora-a-complete-guide-d7e5a168cbae)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Keras](https://img.shields.io/badge/Keras-3.0-red.svg)](https://keras.io/)
 
 **A comprehensive guide to fine-tuning Google's Gemma 3 models using LoRA (Low-Rank Adaptation) - works on both CPU and GPU!**
+
+📖 **Read the full tutorial on Medium**: [Fine-Tuning Gemma 3 270M (or Higher) on CPU/GPU with LoRA: A Complete Guide](https://medium.com/@mezzihoussem/fine-tuning-gemma-3-270m-or-higher-on-cpu-gpu-with-lora-a-complete-guide-d7e5a168cbae)
 
 </div>
 
@@ -41,11 +44,11 @@ The LoRA approach freezes the pre-trained model weights and injects trainable lo
 
 ## 🚀 Quick Start
 
-### Option 1: Kaggle (Recommended)
-Run the notebook directly on Kaggle with free GPU/TPU access!
+### Option 1: Google Colab (Recommended)
+Click the "Open in Colab" badge above or [open directly in Colab](https://drive.google.com/file/d/1N63GVduHTblHk4av87-pupsQZLTq32o6/view?usp=sharing) to run the notebook with free GPU access!
 
-### Option 2: Google Colab
-Click the "Open in Colab" badge above to run the notebook with free GPU access!
+### Option 2: Kaggle
+Run the notebook directly on Kaggle with free GPU/TPU access!
 
 ### Option 3: Local Installation
 
@@ -102,6 +105,16 @@ Contributions are welcome! Feel free to:
 - 🐛 Report bugs
 - 💡 Suggest features
 - 🔀 Submit pull requests
+
+---
+
+## 📚 Resources
+
+- 📖 **Medium Article**: [Fine-Tuning Gemma 3 270M (or Higher) on CPU/GPU with LoRA: A Complete Guide](https://medium.com/@mezzihoussem/fine-tuning-gemma-3-270m-or-higher-on-cpu-gpu-with-lora-a-complete-guide-d7e5a168cbae)
+- 🔗 **LLM-DATA-Generator**: [ElHadheqMind/LLM-DATA-Generator](https://github.com/ElHadheqMind/LLM-DATA-Generator)
+- 🔗 **Gemma Models on Kaggle**: [kaggle.com/models/keras/gemma3](https://www.kaggle.com/models/keras/gemma3)
+- 🔗 **KerasHub Documentation**: [keras.io/keras_hub](https://keras.io/keras_hub/)
+- 🔗 **LoRA Paper**: [arxiv.org/abs/2106.09685](https://arxiv.org/abs/2106.09685)
 
 ---
 
