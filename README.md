@@ -4,13 +4,13 @@
 
 [![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-20BEFF?logo=kaggle)](https://www.kaggle.com/)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1N63GVduHTblHk4av87-pupsQZLTq32o6/view?usp=sharing)
-[![Medium](https://img.shields.io/badge/Medium-Article-12100E?logo=medium)](https://medium.com/@mezzihoussem/fine-tuning-gemma-3-270m-or-higher-on-cpu-gpu-with-lora-a-complete-guide-d7e5a168cbae)
+[![Medium](https://img.shields.io/badge/Medium-Article-12100E?logo=medium)](https://medium.com/@mezzihoussem/fine-tuning-gemma-3-270m-or-higher-on-cpu-gpu-with-lora-and-keras-a-complete-guide-3675eb8a1ae6)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Keras](https://img.shields.io/badge/Keras-3.0-red.svg)](https://keras.io/)
 
 **A comprehensive guide to fine-tuning Google's Gemma 3 models using LoRA (Low-Rank Adaptation) - works on both CPU and GPU!**
 
-📖 **Read the full tutorial on Medium**: [Fine-Tuning Gemma 3 270M (or Higher) on CPU/GPU with LoRA: A Complete Guide](https://medium.com/@mezzihoussem/fine-tuning-gemma-3-270m-or-higher-on-cpu-gpu-with-lora-a-complete-guide-d7e5a168cbae)
+📖 **Read the full tutorial on Medium**: [Fine-Tuning Gemma 3 270M (or Higher) on CPU/GPU with LoRA and Keras: A Complete Guide](https://medium.com/@mezzihoussem/fine-tuning-gemma-3-270m-or-higher-on-cpu-gpu-with-lora-and-keras-a-complete-guide-3675eb8a1ae6)
 
 </div>
 
@@ -110,7 +110,7 @@ Contributions are welcome! Feel free to:
 
 ## 📚 Resources
 
-- 📖 **Medium Article**: [Fine-Tuning Gemma 3 270M (or Higher) on CPU/GPU with LoRA: A Complete Guide](https://medium.com/@mezzihoussem/fine-tuning-gemma-3-270m-or-higher-on-cpu-gpu-with-lora-a-complete-guide-d7e5a168cbae)
+- 📖 **Medium Article**: [Fine-Tuning Gemma 3 270M (or Higher) on CPU/GPU with LoRA and Keras: A Complete Guide](https://medium.com/@mezzihoussem/fine-tuning-gemma-3-270m-or-higher-on-cpu-gpu-with-lora-and-keras-a-complete-guide-3675eb8a1ae6)
 - 🔗 **LLM-DATA-Generator**: [ElHadheqMind/LLM-DATA-Generator](https://github.com/ElHadheqMind/LLM-DATA-Generator)
 - 🔗 **Gemma Models on Kaggle**: [kaggle.com/models/keras/gemma3](https://www.kaggle.com/models/keras/gemma3)
 - 🔗 **KerasHub Documentation**: [keras.io/keras_hub](https://keras.io/keras_hub/)
