@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DUnWNxLMxL3WprUqhyLayPxVr5KffTsC?usp=sharing)
 
-![Fine-Tuning Hero Image](cpu%20super%20sin.png)
+![Fine-Tuning Hero Image](Super%20Saiyan%20CPU.png)
 
 *Ready to Fine-Tune on CPU? Let's go!*
 
@@ -77,7 +77,7 @@ pip install keras-hub[jax] jax[cuda12]  # For NVIDIA GPUs
 
 ## A Word from Your CPU
 
-![CPU saying fine-tuning is not my job](cpu-usage-training.png)
+![CPU saying fine-tuning is not my job](FunnyCPU.png)
 
 *Your CPU when you ask it to fine-tune a language model* 😅
 
@@ -154,7 +154,7 @@ Here's what we'll accomplish:
 
 ## The Fine-Tuning Architecture
 
-![Fine-Tuning Architecture](lora-architecture.png)
+![Fine-Tuning Architecture](Architecture.png)
 
 Understanding the architecture is crucial before diving into implementation. The diagram above shows our complete fine-tuning pipeline — from raw data to a specialized model.
 

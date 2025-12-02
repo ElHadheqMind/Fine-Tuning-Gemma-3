@@ -31,7 +31,7 @@ This tutorial demonstrates how to fine-tune **Gemma 3 270M** (or higher) on a cu
 
 <div align="center">
 
-![LoRA Architecture](lora-architecture.png)
+![LoRA Architecture](Architecture.png)
 
 </div>
 
@@ -90,7 +90,7 @@ pip install keras-hub[jax] jax[cuda12]
 Fine-Tuning-Gemma-3/
 ├── Fine_Tuning_Gemma3_LoRA.ipynb  # Main tutorial notebook
 ├── data.csv                        # Sample training data
-├── lora-architecture.png           # Architecture diagram
+├── Architecture.png                # Architecture diagram
 └── README.md                       # This file
 ```
 
